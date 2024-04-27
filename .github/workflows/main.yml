@@ -19,7 +19,7 @@ jobs:
           node-version: '14'
 
       - name: Navigate to project directory
-        run: cd frontend/medic  # Assuming 'medic' is the project directory
+        run: cd frontend/medic/package.json # Assuming 'medic' is the project directory
 
       - name: Install dependencies
         run: npm install
