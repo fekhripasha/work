@@ -21,8 +21,9 @@ jobs:
         with:
           node-version: 14
 
-      - name: Navigate to Angular project directory
-        run: cd frontend/medic
+      - name: Debug - List Files
+        run: ls -al frontend/medic/
+
 
      
 
