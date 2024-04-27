@@ -22,7 +22,7 @@ jobs:
           node-version: 14
 
       - name: Navigate to Angular project directory
-        run: cd frontend/medic
+        run: cd frontend\medic
 
       - name: Check for package.json
         run: |
